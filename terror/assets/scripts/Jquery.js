@@ -27,12 +27,12 @@ closes.forEach(function(close){
         
    
         ev.preventDefault();
-        content.classList.remove("animate");
+        content.classList.remove("animated");
         content.classList.remove("fadeInRight");
-        content.classList.add("animate");
+        content.classList.add("animated");
         content.classList.add("fadeOutRight");
         setTimeout(() => {
-           location.href="/";
-        },3000);
+           location.href="../index.html";
+        },500);
     });  
 })
