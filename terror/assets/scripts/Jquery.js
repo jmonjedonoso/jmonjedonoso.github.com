@@ -33,6 +33,6 @@ closes.forEach(function(close){
         content.classList.add("fadeOutRight");
         setTimeout(() => {
            location.href="/";
-        },3000)
+        },3000);
     });  
 })
